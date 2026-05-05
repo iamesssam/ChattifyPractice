@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "http://localhost:5174",
+        origin: "https://chatify-frontend-6n9v.onrender.com",
         credentials: true
     }
 })
