@@ -14,19 +14,7 @@ const ContactsList = () => {
 
     return (
         <div>
-            {/* {allContacts.map((contact) => (
-                <div key={contact._id} className='flex items-center gap-3
-                    mb-5 mt-3 bg-cyan-800/40 py-4 px-5 rounded-lg cursor-pointer 
-                    hover:bg-cyan-800/80 duration-300 transition-all 
-                    '
-                    onClick={() => setSelectedUser(contact)}
-                >
-                    <img src={contact.profilePic ? contact.profilePic : avatar} alt=""
-                        className='object-cover w-12 h-12 rounded-full'
-                    />
-                    <h2 className='text-white'>{contact.fullName}</h2>
-                </div>
-            ))} */}
+
 
             {allContacts.map((contact) => (
                 <div
