@@ -129,7 +129,8 @@ export const useAuthStore = create((set, get) => ({
             auth: {
                 token: token // ده اللي الـ Middleware بتاعك مستنيه
             },
-            withCredentials: true
+            withCredentials: true , 
+            transports: ["websocket"],
         });
 
         socket.connect();
